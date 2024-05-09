@@ -626,8 +626,10 @@
 		</Folder>
 		<Folder>
 			<name>13-24A</name>
+			<visibility>0</visibility>
 			<Placemark>
 				<name>13</name>
+				<visibility>0</visibility>
 				<LookAt>
 					<gx:TimeStamp><when>2019-10-25</when>
 </gx:TimeStamp>
@@ -658,6 +660,7 @@
 			</Placemark>
 			<Placemark>
 				<name>14</name>
+				<visibility>0</visibility>
 				<LookAt>
 					<gx:TimeStamp><when>2019-10-25</when>
 </gx:TimeStamp>
@@ -688,7 +691,7 @@
 			</Placemark>
 			<Placemark>
 				<name>14A</name>
-				<open>1</open>
+				<visibility>0</visibility>
 				<styleUrl>#m_ylw-pushpin</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
@@ -703,7 +706,7 @@
 			</Placemark>
 			<Placemark>
 				<name>15</name>
-				<open>1</open>
+				<visibility>0</visibility>
 				<styleUrl>#m_ylw-pushpin</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
@@ -718,7 +721,7 @@
 			</Placemark>
 			<Placemark>
 				<name>16</name>
-				<open>1</open>
+				<visibility>0</visibility>
 				<styleUrl>#m_ylw-pushpin</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
@@ -733,7 +736,7 @@
 			</Placemark>
 			<Placemark>
 				<name>16A</name>
-				<open>1</open>
+				<visibility>0</visibility>
 				<styleUrl>#m_ylw-pushpin</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
@@ -748,7 +751,7 @@
 			</Placemark>
 			<Placemark>
 				<name>17</name>
-				<open>1</open>
+				<visibility>0</visibility>
 				<styleUrl>#m_ylw-pushpin</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
@@ -763,7 +766,7 @@
 			</Placemark>
 			<Placemark>
 				<name>18</name>
-				<open>1</open>
+				<visibility>0</visibility>
 				<styleUrl>#m_ylw-pushpin</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
@@ -778,7 +781,7 @@
 			</Placemark>
 			<Placemark>
 				<name>18A</name>
-				<open>1</open>
+				<visibility>0</visibility>
 				<styleUrl>#m_ylw-pushpin</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
@@ -793,7 +796,7 @@
 			</Placemark>
 			<Placemark>
 				<name>19</name>
-				<open>1</open>
+				<visibility>0</visibility>
 				<styleUrl>#m_ylw-pushpin</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
@@ -808,7 +811,7 @@
 			</Placemark>
 			<Placemark>
 				<name>20</name>
-				<open>1</open>
+				<visibility>0</visibility>
 				<styleUrl>#m_ylw-pushpin</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
@@ -823,7 +826,7 @@
 			</Placemark>
 			<Placemark>
 				<name>20A</name>
-				<open>1</open>
+				<visibility>0</visibility>
 				<styleUrl>#m_ylw-pushpin</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
@@ -838,7 +841,7 @@
 			</Placemark>
 			<Placemark>
 				<name>21</name>
-				<open>1</open>
+				<visibility>0</visibility>
 				<styleUrl>#m_ylw-pushpin</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
@@ -853,7 +856,7 @@
 			</Placemark>
 			<Placemark>
 				<name>22</name>
-				<open>1</open>
+				<visibility>0</visibility>
 				<styleUrl>#m_ylw-pushpin</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
@@ -868,7 +871,7 @@
 			</Placemark>
 			<Placemark>
 				<name>22A</name>
-				<open>1</open>
+				<visibility>0</visibility>
 				<styleUrl>#m_ylw-pushpin</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
@@ -883,7 +886,7 @@
 			</Placemark>
 			<Placemark>
 				<name>23</name>
-				<open>1</open>
+				<visibility>0</visibility>
 				<styleUrl>#m_ylw-pushpin</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
@@ -898,6 +901,7 @@
 			</Placemark>
 			<Placemark>
 				<name>24</name>
+				<visibility>0</visibility>
 				<styleUrl>#m_ylw-pushpin</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
@@ -912,7 +916,7 @@
 			</Placemark>
 			<Placemark>
 				<name>24A</name>
-				<open>1</open>
+				<visibility>0</visibility>
 				<styleUrl>#m_ylw-pushpin</styleUrl>
 				<Polygon>
 					<tessellate>1</tessellate>
@@ -920,6 +924,587 @@
 						<LinearRing>
 							<coordinates>
 								-112.2565719436889,41.9768875421242,0 -112.256575047118,41.97693584044254,0 -112.25672702315,41.9769300982228,0 -112.2567206727691,41.9768821134338,0 -112.2565719436889,41.9768875421242,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>25-36A</name>
+			<Style>
+				<ListStyle>
+					<listItemType>check</listItemType>
+					<bgColor>00ffffff</bgColor>
+					<maxSnippetLines>2</maxSnippetLines>
+				</ListStyle>
+			</Style>
+			<Placemark>
+				<name>25</name>
+				<LookAt>
+					<gx:TimeStamp><when>2019-10-25</when>
+</gx:TimeStamp>
+					<gx:ViewerOptions>
+						<gx:option name="historicalimagery"></gx:option>
+						<gx:option enabled="0" name="sunlight"></gx:option>
+						<gx:option enabled="0" name="streetview"></gx:option>
+					</gx:ViewerOptions>
+					<longitude>-112.2563364910153</longitude>
+					<latitude>41.97557242638147</latitude>
+					<altitude>0</altitude>
+					<heading>-90.86149099125393</heading>
+					<tilt>0</tilt>
+					<range>120.443372608943</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-112.256829773349,41.97564761393399,0 -112.2568226894629,41.97550474946018,0 -112.2566258621677,41.97551426103656,0 -112.2566400911507,41.97565200183256,0 -112.256829773349,41.97564761393399,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>26</name>
+				<LookAt>
+					<gx:TimeStamp><when>2019-10-25</when>
+</gx:TimeStamp>
+					<gx:ViewerOptions>
+						<gx:option name="historicalimagery"></gx:option>
+						<gx:option enabled="0" name="sunlight"></gx:option>
+						<gx:option enabled="0" name="streetview"></gx:option>
+					</gx:ViewerOptions>
+					<longitude>-112.2564037416821</longitude>
+					<latitude>41.97571592940296</latitude>
+					<altitude>0</altitude>
+					<heading>-90.8615359695393</heading>
+					<tilt>0</tilt>
+					<range>120.1905656160391</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-112.2566393605233,41.97565255412049,0 -112.2566468615469,41.97573406687301,0 -112.2568334236787,41.97573069332211,0 -112.2568290112124,41.97564761825539,0 -112.2566393605233,41.97565255412049,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>26A</name>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-112.2568334236787,41.97573069332211,0 -112.2566468719578,41.97573461990899,0 -112.2566520281511,41.97577554587923,0 -112.2568349942939,41.97577261045415,0 -112.2568334236787,41.97573069332211,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>27</name>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-112.2566527825111,41.97577610199582,0 -112.2566616914134,41.9758762481696,0 -112.2568410638718,41.97587319605036,0 -112.2568350019029,41.97577316837425,0 -112.2566527825111,41.97577610199582,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>28</name>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-112.2566625168114,41.97587466592115,0 -112.2566713387248,41.9759670290501,0 -112.2568474921114,41.9759626657663,0 -112.256840767522,41.97587300645478,0 -112.2566625168114,41.97587466592115,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>28A</name>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-112.2566722534192,41.97596637650161,0 -112.2566770542875,41.97601362203132,0 -112.2568475621544,41.97601174790402,0 -112.2568464546486,41.97596336604435,0 -112.2566722534192,41.97596637650161,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>29</name>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-112.2566779776023,41.97601358714982,0 -112.2566837621483,41.97610020560607,0 -112.2568523835212,41.97609830946829,0 -112.2568475818301,41.9760123942801,0 -112.2566779776023,41.97601358714982,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>30</name>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-112.2566941627459,41.97619195133269,0 -112.2568562805192,41.97618841996579,0 -112.2568523835212,41.97609830946829,0 -112.2566837621483,41.97610020560607,0 -112.2566941627459,41.97619195133269,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>30A</name>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-112.2566951119153,41.9761913714941,0 -112.2566988269966,41.9762461301412,0 -112.2568569278472,41.9762417945746,0 -112.2568562682592,41.97618973826324,0 -112.2566951119153,41.9761913714941,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>31</name>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-112.2566988286189,41.9762455085915,0 -112.2567071176269,41.97632921344404,0 -112.2568625576069,41.97632652141709,0 -112.2568574904585,41.97624221459972,0 -112.2566988286189,41.9762455085915,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>32</name>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-112.2567092743456,41.97632863212016,0 -112.2567168952472,41.97641610692796,0 -112.2568680545564,41.97641259036119,0 -112.2568624794883,41.97632655922904,0 -112.2567092743456,41.97632863212016,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>32A</name>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-112.2567180655553,41.97641529111911,0 -112.256719222505,41.97646309017517,0 -112.2568706684237,41.97646145587088,0 -112.2568692617301,41.97641262058049,0 -112.2567180655553,41.97641529111911,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>33</name>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-112.2567203596629,41.97646265392775,0 -112.2567293635486,41.97654591431844,0 -112.2568749651864,41.97654551191538,0 -112.2568718779818,41.97646145943589,0 -112.2567203596629,41.97646265392775,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>34</name>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-112.2567293768589,41.97654737880992,0 -112.256738199769,41.97663490104144,0 -112.2568778444046,41.97663339737145,0 -112.2568760506505,41.97654547260804,0 -112.2567293768589,41.97654737880992,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>34A</name>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-112.2567381997476,41.97663564406211,0 -112.2567433730042,41.97668098825438,0 -112.2568795143739,41.97667909959843,0 -112.2568789064531,41.97663262082012,0 -112.2567381997476,41.97663564406211,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>35</name>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-112.2567433730042,41.97668098825438,0 -112.2567522383258,41.97678066469147,0 -112.2568860728282,41.97677505716945,0 -112.2568805866,41.97667909175794,0 -112.2567433730042,41.97668098825438,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>36</name>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-112.2567522434841,41.9767814183346,0 -112.2567621780901,41.97688084836886,0 -112.2568909316436,41.97687497581033,0 -112.2568850054853,41.97677659059853,0 -112.2567522434841,41.9767814183346,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>36A</name>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-112.256762183588,41.97688009018987,0 -112.2567680745045,41.97693037640987,0 -112.2568937407746,41.976925408513,0 -112.256890927148,41.97687575048421,0 -112.256762183588,41.97688009018987,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>37-48A</name>
+			<Placemark>
+				<name>37</name>
+				<LookAt>
+					<gx:TimeStamp><when>2019-10-25</when>
+</gx:TimeStamp>
+					<gx:ViewerOptions>
+						<gx:option name="historicalimagery"></gx:option>
+						<gx:option enabled="0" name="sunlight"></gx:option>
+						<gx:option enabled="0" name="streetview"></gx:option>
+					</gx:ViewerOptions>
+					<longitude>-112.2563364910153</longitude>
+					<latitude>41.97557242638147</latitude>
+					<altitude>0</altitude>
+					<heading>-90.86149099125393</heading>
+					<tilt>0</tilt>
+					<range>120.443372608943</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-112.2569593948953,41.97564319530557,0 -112.2569530267058,41.97549789331784,0 -112.2568238030303,41.97550468700794,0 -112.2568293934381,41.97564762419323,0 -112.2569593948953,41.97564319530557,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>38</name>
+				<LookAt>
+					<gx:TimeStamp><when>2019-10-25</when>
+</gx:TimeStamp>
+					<gx:ViewerOptions>
+						<gx:option name="historicalimagery"></gx:option>
+						<gx:option enabled="0" name="sunlight"></gx:option>
+						<gx:option enabled="0" name="streetview"></gx:option>
+					</gx:ViewerOptions>
+					<longitude>-112.2564037416821</longitude>
+					<latitude>41.97571592940296</latitude>
+					<altitude>0</altitude>
+					<heading>-90.8615359695393</heading>
+					<tilt>0</tilt>
+					<range>120.1905656160391</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-112.256829407924,41.97564818186054,0 -112.2568345721352,41.97573099915326,0 -112.2569625054371,41.97572865470549,0 -112.256959412939,41.97564375849967,0 -112.256829407924,41.97564818186054,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>38A</name>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-112.2568361285259,41.97577187991615,0 -112.2569639231504,41.97576971371055,0 -112.2569617236398,41.9757286481241,0 -112.2568330479752,41.97573043853631,0 -112.2568361285259,41.97577187991615,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>39</name>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-112.2568361361382,41.97577243807697,0 -112.2568422022803,41.97587255896005,0 -112.2569686365073,41.97587051890201,0 -112.2569647169599,41.97577028697359,0 -112.2568361361382,41.97577243807697,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>40</name>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-112.2568406672462,41.97587330706266,0 -112.2568462269456,41.975963734761,0 -112.2569726290526,41.97596177992168,0 -112.2569689431514,41.97587155296495,0 -112.2568406672462,41.97587330706266,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>40A</name>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-112.2568446834803,41.97596321065207,0 -112.2568489853447,41.97601154767159,0 -112.2569743660215,41.97600992643933,0 -112.2569726290526,41.97596177992168,0 -112.2568446834803,41.97596321065207,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>41</name>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-112.2568478047947,41.97601187950634,0 -112.2568507355716,41.97609719385451,0 -112.2569764168167,41.97609584750012,0 -112.2569724470473,41.97600921956016,0 -112.2568478047947,41.97601187950634,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>42</name>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-112.2569777475164,41.97609570055201,0 -112.2568514747921,41.97609782947691,0 -112.2568558568506,41.97618875097338,0 -112.2569796241144,41.97618641256944,0 -112.2569777475164,41.97609570055201,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>42A</name>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-112.2568558508756,41.97618934381602,0 -112.2568581241111,41.97624158638612,0 -112.2569844622018,41.97623901379344,0 -112.2569806709711,41.97618706230369,0 -112.2568558508756,41.97618934381602,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>43</name>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-112.2568581253637,41.97624099154504,0 -112.2568629957524,41.97632618045403,0 -112.2569870410955,41.97632400676992,0 -112.2569844570663,41.97623963897148,0 -112.2568581253637,41.97624099154504,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>44</name>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-112.2568620664369,41.97632670509604,0 -112.2568668057659,41.97641208230153,0 -112.2569905949457,41.97640901954595,0 -112.2569859827338,41.97632329076208,0 -112.2568620664369,41.97632670509604,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>44A</name>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-112.2568677569152,41.97641219586158,0 -112.2568702543321,41.97646071029367,0 -112.25699397231,41.97645850971676,0 -112.2569905647551,41.97640837325734,0 -112.2568677569152,41.97641219586158,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>45</name>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-112.2568729540144,41.97646140464412,0 -112.2568739074699,41.97654629772126,0 -112.2569958089109,41.97654355020344,0 -112.2569930125549,41.97645912689992,0 -112.2568729540144,41.97646140464412,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>46</name>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-112.2568761053979,41.97654696647087,0 -112.2568767718692,41.97663341383829,0 -112.2569992467664,41.97663135693471,0 -112.2569980949801,41.97654346540877,0 -112.2568761053979,41.97654696647087,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>46A</name>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-112.2568778227431,41.97663187765438,0 -112.2568816508519,41.97667831984987,0 -112.2570006146193,41.97667422497994,0 -112.2569992467664,41.97663135693471,0 -112.2568778227431,41.97663187765438,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>47</name>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-112.2568816592815,41.97667908397698,0 -112.2568871821295,41.97677661018857,0 -112.2570046930641,41.97677136285544,0 -112.2569994976091,41.97667579610193,0 -112.2568816592815,41.97667908397698,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>48</name>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-112.256884995101,41.9767758190932,0 -112.2568898450535,41.97687494855516,0 -112.2570111337397,41.97687115540464,0 -112.2570069540696,41.97677216745634,0 -112.256884995101,41.9767758190932,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>48A</name>
+				<styleUrl>#m_ylw-pushpin</styleUrl>
+				<Polygon>
+					<tessellate>1</tessellate>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-112.256890936172,41.9768742011772,0 -112.2568926616643,41.97692537525894,0 -112.2570120988222,41.97692191443657,0 -112.2570122897434,41.97687118707968,0 -112.256890936172,41.9768742011772,0 
 							</coordinates>
 						</LinearRing>
 					</outerBoundaryIs>
