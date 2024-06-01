@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Embedded Search</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        #searchContainer {
+            text-align: center;
+            margin-top: 20px;
+        }
+        input[type="text"] {
+            margin: 5px;
+            padding: 10px;
+            font-size: 12px;
+            border: 2px solid #ccc;
+            border-radius: 5px;
+        }
+        #searchGeneral {
+            width: 200px;
+        }
+        .columnSearch {
+            width: 150px;
+        }
+        #searchResults {
+            margin-top: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+        th, td {
+            padding: 10px;
+            border: 1px solid #ccc;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        a {
+            color: blue;
+            text-decoration: underline;
+        }
+    </style>
+    <script>
+        $(document).ready(function(){
+            var searchData = []; // Store the parsed data
+            
+            // Fetch data from the Google Sheet
+            $.ajax({
+                url: 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQo3Ucqz6Y0QWaZ4VjaIFXxBrHpRtr4kzF6HyqtJx5U6dt0gvDLMHLyrTcnWy0h2zpKIZfD_e9P-Xzy/pub?gid=76527711&single=true&output=csv',
+                dataType: 'text',
+                success: function(data){
+                    var rows = data.split('\n');
+                    for (var i = 1; i < rows.length; i++) {
+                        var cells = rows[i].split(',');
+                        searchData.push(cells);
+                    }
+                }
+            });
+
+            // Search functionality
+            $('#searchGeneral, #searchColumn1, #searchColumn2, #searchColumn3, #searchColumn4, #searchColumn5, #searchColumn6, #searchColumn7').on('input', function(){
+                // Clear other search boxes
+                $('input[type="text"]').not(this).val('');
+
+                var query = $(this).val().toLowerCase();
+                var column = $(this).data('column');
+                var searchResults = [];
+                if (query.length > 0) {
+                    if (column === "general") {
+                        // General search across all columns
+                        searchResults = searchData.filter(function(row){
+                            return row.some(function(cell){
+                                return cell.toLowerCase().includes(query);
+                            });
+                        });
+                    } else {
+                        // Search in specific column
+                        var columnIndex = parseInt(column);
+                        searchResults = searchData.filter(function(row){
+                            return row[columnIndex].toLowerCase().includes(query);
+                        });
+                    }
+                }
+                // Display search results
+                displaySearchResults(searchResults, query);
+            });
+
+            // Function to display search results
+            function displaySearchResults(results, query) {
+                var resultHtml = '';
+                if (results.length > 0) {
+                    resultHtml += '<table>';
+                    resultHtml += '<tr>';
+                    resultHtml += '<th>First Name</th>';
+                    resultHtml += '<th>Middle Names</th>';
+                    resultHtml += '<th>Last Name</th>';
+                    resultHtml += '<th>Suffix</th>';
+                    resultHtml += '<th>Lot</th>';
+                    resultHtml += '<th>Birth Date</th>';
+                    resultHtml += '<th>Death Date</th>';
+                    resultHtml += '</tr>';
+                    results.forEach(function(result){
+                        resultHtml += '<tr>';
+                        result.forEach(function(cell, index) {
+                            // Bold the search term in the cell content
+                            cell = cell.toLowerCase().includes(query) ? '<b>' + cell + '</b>' : cell;
+                            // Convert URLs into hyperlinks
+                            cell = cell.replace(/(https?:\/\/[^\s]+)/g, '<a href="$1" target="_blank">$1</a>');
+                            resultHtml += '<td>' + cell + '</td>';
+                        });
+                        resultHtml += '</tr>';
+                    });
+                    resultHtml += '</table>';
+                } else {
+                    resultHtml = '<p>No results found.</p>';
+                }
+                $('#searchResults').html(resultHtml);
+            }
+        });
+    </script>
+</head>
+<body>
+    <div id="searchContainer">
+        <input type="text" id="searchGeneral" placeholder="Enter General Search" data-column="general">
+        <br><br>
+        <input type="text" id="searchColumn1" class="columnSearch" placeholder="Enter First Name" data-column="0">
+        <input type="text" id="searchColumn2" class="columnSearch" placeholder="Enter Middle Names" data-column="1">
+        <input type="text" id="searchColumn3" class="columnSearch" placeholder="Enter Last Name" data-column="2">
+        <input type="text" id="searchColumn4" class="columnSearch" placeholder="Enter Suffix" data-column="3">
+        <input type="text" id="searchColumn5" class="columnSearch" placeholder="Enter Lot" data-column="4">
+        <input type="text" id="searchColumn6" class="columnSearch" placeholder="Enter Birth Date" data-column="5">
+        <input type="text" id="searchColumn7" class="columnSearch" placeholder="Enter Death Date" data-column="6">
+    </div>
+    
+    <div id="searchResults">
+        <!-- Search results will be displayed here -->
+    </div>
+</body>
+</html>
