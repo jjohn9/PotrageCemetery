@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Model Viewer</title>
+    <style>
+        body { margin: 0; }
+        canvas { display: block; }
+    </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/loaders/GLTFLoader.js"></script>
+</head>
+<body>
+    <div id="container"></div>
+    <script>
+        // Create the scene
+        var scene = new THREE.Scene();
+
+        // Create a camera, which determines what we'll see when we render the scene
+        var camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
+
+        // Create a renderer and attach it to our document
+        var renderer = new THREE.WebGLRenderer();
+        renderer.setSize(window.innerWidth, window.innerHeight);
+        document.getElementById('container').appendChild(renderer.domElement);
+
+        // Create and add lights to the scene
+        var ambientLight = new THREE.AmbientLight(0xffffff, 0.5); // soft white light
+        scene.add(ambientLight);
+
+        var directionalLight = new THREE.DirectionalLight(0xffffff, 1);
+        directionalLight.position.set(1, 1, 1).normalize();
+        scene.add(directionalLight);
+
+        var pointLight = new THREE.PointLight(0xffffff, 1, 100);
+        pointLight.position.set(5, 5, 5);
+        scene.add(pointLight);
+
+        // Load the .glb file
+        var loader = new THREE.GLTFLoader();
+        loader.load(
+            'https://raw.githubusercontent.com/jjohn9/PotrageCemetery/main/Michael_J_Hawkes_%2B2_4A.glb', // Raw URL of your .glb file
+            function (gltf) {
+                console.log('Model loaded successfully');
+                scene.add(gltf.scene);
+
+                // Log model details
+                console.log(gltf.scene);
+
+                // Check and apply simple material for debugging
+                gltf.scene.traverse(function (node) {
+                    if (node.isMesh) {
+                        node.material = new THREE.MeshStandardMaterial({ color: 0x00ff00 });
+                    }
+                });
+            },
+            function (xhr) {
+                console.log((xhr.loaded / xhr.total * 100) + '% loaded');
+            },
+            function (error) {
+                console.error('An error happened', error);
+            }
+        );
+
+        // Position the camera
+        camera.position.z = 5;
+
+        // Create an animation loop
+        function animate() {
+            requestAnimationFrame(animate);
+            renderer.render(scene, camera);
+        }
+
+        // Run the animation loop
+        animate();
+
+        // Handle window resize
+        window.addEventListener('resize', function () {
+            var width = window.innerWidth;
+            var height = window.innerHeight;
+            renderer.setSize(width, height);
+            camera.aspect = width / height;
+            camera.updateProjectionMatrix();
+        });
+    </script>
+</body>
+</html>
