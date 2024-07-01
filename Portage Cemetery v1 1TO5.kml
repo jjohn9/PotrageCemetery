@@ -54,8 +54,6 @@
 		<LabelStyle>
 			<scale>1.5</scale>
 		</LabelStyle>
-		<ListStyle>
-		</ListStyle>
 	</Style>
 	<Style id="s_ylw-pushpin_hl">
 		<IconStyle>
@@ -79,8 +77,6 @@
 		<LabelStyle>
 			<scale>1.5</scale>
 		</LabelStyle>
-		<ListStyle>
-		</ListStyle>
 	</Style>
 	<Style id="sh_ylw-pushpin">
 		<IconStyle>
@@ -90,8 +86,6 @@
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
-		<BalloonStyle>
-		</BalloonStyle>
 		<LineStyle>
 			<color>80ffffff</color>
 		</LineStyle>
@@ -104,15 +98,12 @@
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
-		<BalloonStyle>
-		</BalloonStyle>
 		<LineStyle>
 			<color>80ffffff</color>
 		</LineStyle>
 	</Style>
 	<Folder>
 		<name>Portage Cemetery</name>
-		<open>1</open>
 		<Style>
 			<ListStyle>
 				<listItemType>check</listItemType>
@@ -609,20 +600,6 @@
 					</outerBoundaryIs>
 				</Polygon>
 			</Placemark>
-			<Placemark>
-				<name>12A</name>
-				<styleUrl>#m_ylw-pushpin</styleUrl>
-				<Polygon>
-					<tessellate>1</tessellate>
-					<outerBoundaryIs>
-						<LinearRing>
-							<coordinates>
-								-112.2564192633986,41.97689248362559,0 -112.2564209882244,41.97694143242146,0 -112.256575047118,41.97693584044254,0 -112.2565719436889,41.9768875421242,0 -112.2564192633986,41.97689248362559,0 
-							</coordinates>
-						</LinearRing>
-					</outerBoundaryIs>
-				</Polygon>
-			</Placemark>
 		</Folder>
 		<Folder>
 			<name>13-24A</name>
@@ -891,20 +868,6 @@
 						<LinearRing>
 							<coordinates>
 								-112.2565610441459,41.9767872327986,0 -112.2565697964404,41.97688673464179,0 -112.2567189959421,41.97688341271542,0 -112.2567084697514,41.97678217105346,0 -112.2565610441459,41.9767872327986,0 
-							</coordinates>
-						</LinearRing>
-					</outerBoundaryIs>
-				</Polygon>
-			</Placemark>
-			<Placemark>
-				<name>24A</name>
-				<styleUrl>#m_ylw-pushpin</styleUrl>
-				<Polygon>
-					<tessellate>1</tessellate>
-					<outerBoundaryIs>
-						<LinearRing>
-							<coordinates>
-								-112.2565719436889,41.9768875421242,0 -112.256575047118,41.97693584044254,0 -112.25672702315,41.9769300982228,0 -112.2567206727691,41.9768821134338,0 -112.2565719436889,41.9768875421242,0 
 							</coordinates>
 						</LinearRing>
 					</outerBoundaryIs>
@@ -1190,20 +1153,6 @@
 					</outerBoundaryIs>
 				</Polygon>
 			</Placemark>
-			<Placemark>
-				<name>36A</name>
-				<styleUrl>#m_ylw-pushpin</styleUrl>
-				<Polygon>
-					<tessellate>1</tessellate>
-					<outerBoundaryIs>
-						<LinearRing>
-							<coordinates>
-								-112.256762183588,41.97688009018987,0 -112.2567680745045,41.97693037640987,0 -112.2568937407746,41.976925408513,0 -112.256890927148,41.97687575048421,0 -112.256762183588,41.97688009018987,0 
-							</coordinates>
-						</LinearRing>
-					</outerBoundaryIs>
-				</Polygon>
-			</Placemark>
 		</Folder>
 		<Folder>
 			<name>37-48A</name>
@@ -1472,20 +1421,6 @@
 						<LinearRing>
 							<coordinates>
 								-112.256884995101,41.9767758190932,0 -112.2568898450535,41.97687494855516,0 -112.2570111337397,41.97687115540464,0 -112.2570069540696,41.97677216745634,0 -112.256884995101,41.9767758190932,0 
-							</coordinates>
-						</LinearRing>
-					</outerBoundaryIs>
-				</Polygon>
-			</Placemark>
-			<Placemark>
-				<name>48A</name>
-				<styleUrl>#m_ylw-pushpin</styleUrl>
-				<Polygon>
-					<tessellate>1</tessellate>
-					<outerBoundaryIs>
-						<LinearRing>
-							<coordinates>
-								-112.256890936172,41.9768742011772,0 -112.2568926616643,41.97692537525894,0 -112.2570120988222,41.97692191443657,0 -112.2570122897434,41.97687118707968,0 -112.256890936172,41.9768742011772,0 
 							</coordinates>
 						</LinearRing>
 					</outerBoundaryIs>
@@ -1764,20 +1699,6 @@
 					</outerBoundaryIs>
 				</Polygon>
 			</Placemark>
-			<Placemark>
-				<name>60A</name>
-				<styleUrl>#m_ylw-pushpin</styleUrl>
-				<Polygon>
-					<tessellate>1</tessellate>
-					<outerBoundaryIs>
-						<LinearRing>
-							<coordinates>
-								-112.2570634040433,41.97687087927124,0 -112.2570644016548,41.97692003724146,0 -112.2571936338222,41.97691496127641,0 -112.2571923023885,41.9768640247607,0 -112.2570634040433,41.97687087927124,0 
-							</coordinates>
-						</LinearRing>
-					</outerBoundaryIs>
-				</Polygon>
-			</Placemark>
 		</Folder>
 		<Folder>
 			<name>61-72A</name>
@@ -2046,20 +1967,6 @@
 						<LinearRing>
 							<coordinates>
 								-112.2571895427748,41.97676792307133,0 -112.2571931636465,41.97686511538635,0 -112.2573244870725,41.97685897012113,0 -112.257321058004,41.97676288116331,0 -112.2571895427748,41.97676792307133,0 
-							</coordinates>
-						</LinearRing>
-					</outerBoundaryIs>
-				</Polygon>
-			</Placemark>
-			<Placemark>
-				<name>72A</name>
-				<styleUrl>#m_ylw-pushpin</styleUrl>
-				<Polygon>
-					<tessellate>1</tessellate>
-					<outerBoundaryIs>
-						<LinearRing>
-							<coordinates>
-								-112.2571944232232,41.97686409283026,0 -112.2571943171864,41.97691470429046,0 -112.2573257289998,41.97690921991445,0 -112.2573231955834,41.97685805513643,0 -112.2571944232232,41.97686409283026,0 
 							</coordinates>
 						</LinearRing>
 					</outerBoundaryIs>
@@ -2361,20 +2268,6 @@
 					</outerBoundaryIs>
 				</Polygon>
 			</Placemark>
-			<Placemark>
-				<name>84A</name>
-				<styleUrl>#m_ylw-pushpin</styleUrl>
-				<Polygon>
-					<tessellate>1</tessellate>
-					<outerBoundaryIs>
-						<LinearRing>
-							<coordinates>
-								-112.2573759380181,41.97685885670341,0 -112.2573755224877,41.97690937317222,0 -112.2575003438798,41.97690661594621,0 -112.2574986410818,41.97685315123189,0 -112.2573759380181,41.97685885670341,0 
-							</coordinates>
-						</LinearRing>
-					</outerBoundaryIs>
-				</Polygon>
-			</Placemark>
 		</Folder>
 		<Folder>
 			<name>85-96A</name>
@@ -2643,20 +2536,6 @@
 						<LinearRing>
 							<coordinates>
 								-112.2574912417336,41.97675706069393,0 -112.2574986410818,41.97685315123189,0 -112.2576247632943,41.97684937189409,0 -112.2576239916517,41.97675589358221,0 -112.2574912417336,41.97675706069393,0 
-							</coordinates>
-						</LinearRing>
-					</outerBoundaryIs>
-				</Polygon>
-			</Placemark>
-			<Placemark>
-				<name>96A</name>
-				<styleUrl>#m_ylw-pushpin</styleUrl>
-				<Polygon>
-					<tessellate>1</tessellate>
-					<outerBoundaryIs>
-						<LinearRing>
-							<coordinates>
-								-112.2574986410818,41.97685315123189,0 -112.2575003350371,41.9769052971175,0 -112.2576278785611,41.97690090869542,0 -112.2576247513317,41.97685065408236,0 -112.2574986410818,41.97685315123189,0 
 							</coordinates>
 						</LinearRing>
 					</outerBoundaryIs>
